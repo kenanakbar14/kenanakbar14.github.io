@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+}
+
+#section{
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+       .box-0{
+        width: 200px;
+        height: 250px;
+        background-color:white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+
+       
+        .span{
+            width: 200px;
+            height: 250px;
+            background-color: rgb(236, 16, 16);
+            transition: width 2s, height 2s, transform 2s;
+            box-shadow:10px 5px 5px rgb(71, 55, 55) ;
+     
+                h1{
+                    color: white;
+                    font-size: 50px;
+                    text-align: center;
+                    padding-top: 25px;
+                }
+            }
+            .span:hover{
+                margin-bottom: 150px;
+                width: 80px;
+                height: 80px;
+                transform: rotate(360deg);
+                border-radius: 60px;
+                border: 2px solid rgb(236, 16, 16);
+                background-color: white;
+                h1:hover{
+                    color:rgb(236, 16, 16);
+                    width: 100%;
+                    padding-bottom: 25px;
+                    font-size: 15px;
+                }   transform: rotate(360deg);
+
+   
+             }
+            }
+    
+        }
+    }
+
+
+
+    #section-2{
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+            .box-0{
+                background-color: red;
+                width: 200px;
+                height: 250px;
+                color: aliceblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span{
+                    width: 200px;
+                    height: 250px;
+                    background-color: red;
+                }
+                span:hover{
+                    width: 100px;
+                height: 100px;
+                background-color: black;
+                animation: loader 1.25s;
+                }
+            }
+
+
+        }
+        @keyframes loader{
+        0%{
+                rotate: 0deg;
+
+            }
+            100%{
+                border-radius: 100%;
+                rotate: 180deg;
+            }
+        }
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
